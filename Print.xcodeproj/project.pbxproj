@@ -13,7 +13,7 @@
 		6FE43FF22272D92800B864EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE43FF12272D92800B864EF /* Assets.xcassets */; };
 		6FE43FF52272D92800B864EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE43FF32272D92800B864EF /* LaunchScreen.storyboard */; };
 		6FE43FF82272D92800B864EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE43FF72272D92800B864EF /* main.m */; };
-		6FE440012272D95400B864EF /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE440002272D95400B864EF /* Tool.m */; };
+		6FE440052272DCD700B864EF /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE440032272DCD700B864EF /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		6FE43FF42272D92800B864EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FE43FF62272D92800B864EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FE43FF72272D92800B864EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6FE43FFF2272D95400B864EF /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
-		6FE440002272D95400B864EF /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		6FE440032272DCD700B864EF /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		6FE440042272DCD700B864EF /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +45,7 @@
 		6FE43FDC2272D92600B864EF = {
 			isa = PBXGroup;
 			children = (
+				6FE440022272DCD700B864EF /* Tool */,
 				6FE43FE72272D92600B864EF /* Print */,
 				6FE43FE62272D92600B864EF /* Products */,
 			);
@@ -61,7 +62,6 @@
 		6FE43FE72272D92600B864EF /* Print */ = {
 			isa = PBXGroup;
 			children = (
-				6FE43FFE2272D94900B864EF /* Tool */,
 				6FE43FE82272D92600B864EF /* AppDelegate.h */,
 				6FE43FE92272D92600B864EF /* AppDelegate.m */,
 				6FE43FEB2272D92600B864EF /* ViewController.h */,
@@ -75,11 +75,11 @@
 			path = Print;
 			sourceTree = "<group>";
 		};
-		6FE43FFE2272D94900B864EF /* Tool */ = {
+		6FE440022272DCD700B864EF /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				6FE43FFF2272D95400B864EF /* Tool.h */,
-				6FE440002272D95400B864EF /* Tool.m */,
+				6FE440032272DCD700B864EF /* Tool.m */,
+				6FE440042272DCD700B864EF /* Tool.h */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 				6FE43FED2272D92600B864EF /* ViewController.m in Sources */,
 				6FE43FF82272D92800B864EF /* main.m in Sources */,
 				6FE43FEA2272D92600B864EF /* AppDelegate.m in Sources */,
-				6FE440012272D95400B864EF /* Tool.m in Sources */,
+				6FE440052272DCD700B864EF /* Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
